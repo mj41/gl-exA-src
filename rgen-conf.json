@@ -1,0 +1,21 @@
+{
+    "defaults": {
+        "branch": "main",
+        "commit_msg": "Auto generate commit",
+        "author_name": "GitRgen Bot",
+        "author_email": "git-rgen-bot@mj41.cz",
+        "author_date": "2025-11-22T08:16:32Z",
+        "author_date_diff": "25h1m1s",
+        "committer_name": "GitRgen Bot",
+        "committer_email": "git-rgen-bot@mj41.cz",
+        "committer_date": "2025-11-22T09:18:36Z",
+        "committer_date_diff": "25h1m1s"
+    },
+    "src": {
+        "path": "assets/"
+    },
+    "dest": {
+        "path": "../gl-exA",
+        "git": "git@github.com:mj41/gl-exA.git"
+    }
+}

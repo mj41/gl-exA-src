@@ -1,0 +1,4 @@
+Change docs
+
+This commit breaks gl-git-link line number as there were
+new lines prepended to docs/my-tiny-spec.md file.
