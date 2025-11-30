@@ -1,0 +1,4 @@
+Delete target line without replacement (broken link)
+
+TC-019: Test broken link detection when target line is deleted.
+Deleted "Line 5" entirely with no similar replacement.

@@ -1,0 +1,4 @@
+Manual link update to reset origin
+
+TC-017: Test that manually updated links reset their tracking origin.
+Changed link from #L3 to #L2.

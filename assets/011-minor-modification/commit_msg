@@ -1,0 +1,4 @@
+Minor modification to target line (~20%)
+
+TC-011: Test that small changes to target line are tracked but not flagged.
+"Line 3" -> "Line 3 updated" is below 30% threshold.

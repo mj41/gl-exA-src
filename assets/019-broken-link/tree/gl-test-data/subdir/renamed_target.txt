@@ -1,0 +1,8 @@
+Inserted Line B
+Line 1
+Line 2
+Completely rewritten content here
+Line 4 reconstructed version
+Appended Line X
+Appended Line Y
+Appended Line Z

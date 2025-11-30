@@ -1,0 +1,4 @@
+Add multi-commit tracking target file
+
+TC-020: Setup for testing incremental tracking across multiple commits.
+Adding new target file with 20 lines and a link to L10.

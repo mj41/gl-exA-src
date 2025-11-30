@@ -1,0 +1,3 @@
+Add second link file pointing to same target
+
+TC-015: Test handling of multiple links pointing to same file/line.

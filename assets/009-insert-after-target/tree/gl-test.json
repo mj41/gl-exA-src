@@ -1,0 +1,6 @@
+{
+  "description": "TC-009: Insert 3 lines after target - link #L3 still tracks to L5",
+  "expect": [
+    {"file": "gl-test-data/test_link.md", "line": 1, "old": 3, "new": 5, "status": "updated"}
+  ]
+}

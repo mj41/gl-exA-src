@@ -1,0 +1,9 @@
+{
+  "description": "TC-015: Multiple links - test_link.md#L1 broken (old target), others unchanged",
+  "expect": [
+    {"file": "gl-test-data/test_link.md", "line": 1, "old": 3, "new": 3, "status": "broken"},
+    {"file": "gl-test-data/test_link.md", "line": 3, "old": 6, "new": 6, "status": "unchanged"},
+    {"file": "gl-test-data/test_link2.md", "line": 3, "old": 4, "new": 4, "status": "unchanged"},
+    {"file": "gl-test-data/test_link2.md", "line": 5, "old": 7, "new": 7, "status": "unchanged"}
+  ]
+}

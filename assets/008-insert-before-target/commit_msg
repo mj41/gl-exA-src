@@ -1,0 +1,4 @@
+Insert 2 lines before target line
+
+TC-008: Test line tracking when lines are inserted before the referenced line.
+Link should update from #L3 to #L5.

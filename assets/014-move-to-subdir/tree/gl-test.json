@@ -1,0 +1,6 @@
+{
+  "description": "TC-014: Move target to subdir - link broken (old path doesn't exist)",
+  "expect": [
+    {"file": "gl-test-data/test_link.md", "line": 1, "old": 3, "new": 3, "status": "broken"}
+  ]
+}

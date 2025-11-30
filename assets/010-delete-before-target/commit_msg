@@ -1,0 +1,4 @@
+Delete 1 line before target line
+
+TC-010: Test line tracking when lines are deleted before the referenced line.
+Link should update from #L5 to #L4.

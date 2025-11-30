@@ -1,0 +1,6 @@
+{
+  "description": "TC-012: Major modification - line too different, heuristic fails",
+  "expect": [
+    {"file": "gl-test-data/test_link.md", "line": 1, "old": 3, "new": 3, "status": "broken"}
+  ]
+}

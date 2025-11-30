@@ -1,0 +1,2 @@
+# Move renamed_target.txt to subdir
+gl-test-data/renamed_target.txt -> gl-test-data/subdir/renamed_target.txt

@@ -1,0 +1,4 @@
+Rename target file
+
+TC-013: Test file rename detection and reporting.
+test_target.txt -> renamed_target.txt

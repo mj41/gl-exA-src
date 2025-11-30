@@ -1,0 +1,4 @@
+Move target file to subdirectory
+
+TC-014: Test file move detection (path change).
+gl-test-data/renamed_target.txt -> gl-test-data/subdir/renamed_target.txt

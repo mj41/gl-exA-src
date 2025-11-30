@@ -1,0 +1,4 @@
+Delete target line and add similar line nearby
+
+TC-018: Test heuristic recovery when git loses track of a line.
+Deleted "Line 4" and added "Line 4 reconstructed" nearby.

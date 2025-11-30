@@ -1,0 +1,4 @@
+Major modification to target line (~60%)
+
+TC-012: Test that significant content changes trigger modification warning.
+"Line 3 updated" -> "Completely rewritten content here" exceeds 30% threshold.

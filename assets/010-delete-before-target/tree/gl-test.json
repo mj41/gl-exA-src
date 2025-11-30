@@ -1,0 +1,6 @@
+{
+  "description": "TC-010: Delete 1 line before target - link #L3 -> L4",
+  "expect": [
+    {"file": "gl-test-data/test_link.md", "line": 1, "old": 3, "new": 4, "status": "updated"}
+  ]
+}

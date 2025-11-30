@@ -1,0 +1,10 @@
+{
+  "description": "TC-019: Broken link - test_link.md#L3 target line deleted",
+  "expect": [
+    {"file": "gl-test-data/nested/deep_link.md", "line": 5, "old": 4, "new": 4, "status": "unchanged"},
+    {"file": "gl-test-data/test_link.md", "line": 1, "old": 2, "new": 2, "status": "unchanged"},
+    {"file": "gl-test-data/test_link.md", "line": 3, "old": 6, "new": 6, "status": "broken"},
+    {"file": "gl-test-data/test_link2.md", "line": 3, "old": 4, "new": 4, "status": "unchanged"},
+    {"file": "gl-test-data/test_link2.md", "line": 5, "old": 6, "new": 6, "status": "unchanged"}
+  ]
+}

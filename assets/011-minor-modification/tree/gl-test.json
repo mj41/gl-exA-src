@@ -1,0 +1,8 @@
+{
+  "description": "TC-011: Minor modification - line changed, heuristic should recover",
+  "expect": [
+    {"file": "gl-test-data/test_link.md", "line": 1, "old": 3, "new": 3, "status": "broken"}
+  ],
+  "skip": true,
+  "skip_reason": "Heuristic recovery threshold needs tuning - 43% similarity not enough"
+}

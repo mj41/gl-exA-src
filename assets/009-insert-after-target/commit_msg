@@ -1,0 +1,4 @@
+Insert 3 lines after target line
+
+TC-009: Test that insertions after target line don't affect the link.
+Link should remain at #L5 (original L3 content).
