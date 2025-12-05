@@ -12,6 +12,7 @@ git-rgen - tool to generate git repositories programatically
 
 Command to run:
 
-```sh
-go-run ./git-rgen/cmd/git-rgen --conf ./gl-exA-src/rgen-conf.json
+```bash
+cd git-rgen-tool
+go run ./cmd/rgen --conf ../gl-exA-src/rgen-conf.json
 ```

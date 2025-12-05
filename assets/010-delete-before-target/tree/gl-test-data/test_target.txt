@@ -1,7 +1,7 @@
 Inserted Line B
 Line 1
 Line 2
-Line 3
+Line 3 - this is the target content for testing
 Line 4
 Line 5
 Appended Line X
