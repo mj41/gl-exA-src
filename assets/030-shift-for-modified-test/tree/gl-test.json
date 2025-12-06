@@ -1,0 +1,30 @@
+{
+  "description": "TC-030: Test --update-modified flag behavior",
+  "tests": [
+    {
+      "name": "default: dry-run shows update needed",
+      "expect": [
+        {"file": "gl-test-data/modify_source_link.md", "line": 1, "old": 3, "new": 5, "status": "updated"}
+      ]
+    },
+    {
+      "name": "skip modified file without --update-modified",
+      "setup": ["echo '# uncommitted' >> gl-test-data/modify_source_link.md"],
+      "args": [],
+      "expect_stderr": "Skipping gl-test-data/modify_source_link.md: file has uncommitted changes",
+      "expect_files": {
+        "gl-test-data/modify_source_link.md": "#L3"
+      },
+      "cleanup": ["git checkout -- ."]
+    },
+    {
+      "name": "update modified file with --update-modified",
+      "setup": ["echo '# uncommitted' >> gl-test-data/modify_source_link.md"],
+      "args": ["--update-modified"],
+      "expect_files": {
+        "gl-test-data/modify_source_link.md": "#L5"
+      },
+      "cleanup": ["git checkout -- ."]
+    }
+  ]
+}
